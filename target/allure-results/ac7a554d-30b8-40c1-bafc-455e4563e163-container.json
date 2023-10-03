@@ -1,1 +1,0 @@
-{"uuid":"ac7a554d-30b8-40c1-bafc-455e4563e163","name":"DemoqaPositiveTest","children":["f6edc114-7a1a-4152-8401-043e9f8ae2d5"],"befores":[{"name":"selenideSettingsSetup","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1696342254030,"stop":1696342254467}],"afters":[],"start":1696342253930,"stop":1696342316694}
