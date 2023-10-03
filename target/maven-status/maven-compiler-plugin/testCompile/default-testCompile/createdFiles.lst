@@ -1,0 +1,11 @@
+test\steps\demoqa_elements\textbox\DemoqaElementTextBoxPageSteps.class
+test\steps\demoqa_elements\buttons\DemoqaElementButtonsPageSteps.class
+test\Configuration\Config.class
+test\steps\demoqa_alertsFW\DemoqaAlertsFWPageSteps.class
+test\steps\demoqa_elements\DemoqaElementsPageSteps.class
+test\steps\demoqa_asidebar\DemoqaAsidebarPageSteps.class
+test\demoqa_positive\DemoqaPositiveTest.class
+test\steps\base\BasePageSteps.class
+test\steps\demoqa_home\DemoqaHomePageSteps.class
+test\steps\demoqa_alertsFW\browserWindows\DemoqaAlertsFWBrowserWindowsPageSteps.class
+test\steps\demoqa_alertsFW\alerts\DemoqaAlertsFWAlertsPageSteps.class

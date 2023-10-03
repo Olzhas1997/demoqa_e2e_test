@@ -1,0 +1,11 @@
+pages\demoqa_asidebar\DemoqaAsidebarPage.class
+pages\demoqa_elements\DemoqaElementsPage.class
+constants\Constant.class
+pages\demoqa_alertsFW\DemoqaAlertsFWPage.class
+pages\demoqa_elements\textbox\DemoqaElementTextboxPage.class
+configuration\Config.class
+pages\base\BasePage.class
+pages\demoqa_alertsFW\alerts\DemoqaAlertsFWAlertsPage.class
+pages\demoqa_elements\buttons\DemoqaElementButtonsPage.class
+pages\demoqa_home\DemoqaHomePage.class
+pages\demoqa_alertsFW\browserWindows\DemoqaAlertsFWBrowserWindowsPage.class

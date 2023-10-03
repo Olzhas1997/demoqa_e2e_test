@@ -1,0 +1,1 @@
+package constants;public class Constant {    public static final String DEMOQA_HOME_PAGE = "https://demoqa.com/";    public static final long PAGE_LOAD_TIMEOUT = 50000;}

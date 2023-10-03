@@ -1,0 +1,1 @@
+package test.steps.demoqa_home;import io.qameta.allure.Step;import test.Configuration.Config;public class DemoqaHomePageSteps extends Config {    @Step("Нажать на «Elements»")    public static void ClickOnElements()    {        demoqaHomePage.ClickOnElementsCard();    }}

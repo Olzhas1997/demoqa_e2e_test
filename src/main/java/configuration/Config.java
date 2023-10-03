@@ -1,0 +1,1 @@
+package configuration;import com.codeborne.selenide.Configuration;import org.openqa.selenium.chrome.ChromeOptions;import static com.codeborne.selenide.Configuration.browser;import static constants.Constant.PAGE_LOAD_TIMEOUT;public class Config {    public static void SelenideSettingsSetup()    {        Configuration.pageLoadTimeout = PAGE_LOAD_TIMEOUT;    }}
