@@ -4,34 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f2ec9c1-99dc-456d-a199-c0fee8b5c3e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa_alerts_frame_windows/DemoqaAlertsFrameWindowsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa_alerts_frame_windows/alerts/DemoqaAlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa_alerts_frame_windows/browser_windows/DemoqaBrowserWindowsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/buttons/DemoqaButtonsPage.java" afterDir="false" />
+    <list default="true" id="7f2ec9c1-99dc-456d-a199-c0fee8b5c3e0" name="Changes" comment="Рефакторинг пакета &quot;java&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/page_objects/alerts_frame_windows/AlertsFrameWindowsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/cases/positive/PositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/configuration/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/alerts_frame_windows/AlertsFrameWindowsPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/alerts_frame_windows/alerts/AlertsPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/alerts_frame_windows/browser_windows/BrowserWindowsPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/asidebar/AsidebarPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/elements/ElementsPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/elements/buttons/ButtonsPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/elements/textbox/TextBoxPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/home/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configuration/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_alertsFW/DemoqaAlertsFWPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_alertsFW/alerts/DemoqaAlertsFWAlertsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_alertsFW/browserWindows/DemoqaAlertsFWBrowserWindowsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_asidebar/DemoqaAsidebarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa_asidebar/DemoqaAsidebarPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/DemoqaElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/DemoqaElementsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/buttons/DemoqaElementButtonsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/textbox/DemoqaElementTextboxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/textbox/DemoqaTextBoxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_home/DemoqaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/demoqa_home/DemoqaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/Configuration/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Configuration/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/demoqa_positive/DemoqaPositiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/demoqa_positive/DemoqaPositiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/DemoqaAlertsFWPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/DemoqaAlertsFWPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/alerts/DemoqaAlertsFWAlertsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/alerts/DemoqaAlertsFWAlertsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/browserWindows/DemoqaAlertsFWBrowserWindowsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/browserWindows/DemoqaAlertsFWBrowserWindowsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_asidebar/DemoqaAsidebarPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_asidebar/DemoqaAsidebarPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/DemoqaElementsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/DemoqaElementsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/buttons/DemoqaElementButtonsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/buttons/DemoqaElementButtonsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/textbox/DemoqaElementTextBoxPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/textbox/DemoqaElementTextBoxPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_home/DemoqaHomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_home/DemoqaHomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_objects/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_alerts_frame_windows/DemoqaAlertsFrameWindowsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_alerts_frame_windows/alerts/DemoqaAlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_objects/alerts_frame_windows/alerts/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_alerts_frame_windows/browser_windows/DemoqaBrowserWindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_objects/alerts_frame_windows/browser_windows/BrowserWindowsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_asidebar/DemoqaAsidebarPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_objects/asidebar/DemoqaAsidebarPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/DemoqaElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_objects/elements/ElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/buttons/DemoqaButtonsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_objects/elements/buttons/ButtonsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_elements/textbox/DemoqaTextBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_objects/elements/textbox/TextBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/demoqa_home/DemoqaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page_objects/home/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/Configuration/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/demoqa_positive/DemoqaPositiveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/base/BasePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/functional/steps/base/BasePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/DemoqaAlertsFWPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/alerts/DemoqaAlertsFWAlertsPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_alertsFW/browserWindows/DemoqaAlertsFWBrowserWindowsPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_asidebar/DemoqaAsidebarPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/DemoqaElementsPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/buttons/DemoqaElementButtonsPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_elements/textbox/DemoqaElementTextBoxPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/steps/demoqa_home/DemoqaHomePageSteps.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +92,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\UserOlzh\Desktop\projects\demoqa_e2e_test\target" />
       <recent name="F:\UserOlzh\Desktop\projects\java-test-task\target" />
     </key>
   </component>
@@ -94,7 +101,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DemoqaPositiveTest.demoqaPositiveTest">
+  <component name="RunManager" selected="JUnit.PositiveTest.positiveTest">
     <configuration name="DemoqaPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test-task" />
       <extension name="coverage">
@@ -105,6 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.demoqa_positive" />
       <option name="MAIN_CLASS_NAME" value="test.demoqa_positive.DemoqaPositiveTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoqaPositiveTest.demoqaPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PositiveTest.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-test-task" />
       <extension name="coverage">
         <pattern>
@@ -134,17 +142,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.demoqa_positive" />
-      <option name="MAIN_CLASS_NAME" value="test.demoqa_positive.DemoqaPositiveTest" />
-      <option name="METHOD_NAME" value="demoqaPositiveTest" />
+      <option name="PACKAGE_NAME" value="test.functional.cases.positive" />
+      <option name="MAIN_CLASS_NAME" value="test.functional.cases.positive.PositiveTest" />
+      <option name="METHOD_NAME" value="positiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.DemoqaPositiveTest" />
+      <item itemvalue="JUnit.DemoqaPositiveTest.clickOnTextboxCategory" />
+      <item itemvalue="JUnit.PositiveTest.positiveTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DemoqaPositiveTest.demoqaPositiveTest" />
+        <item itemvalue="JUnit.PositiveTest.positiveTest" />
         <item itemvalue="JUnit.DemoqaPositiveTest" />
         <item itemvalue="JUnit.DemoqaPositiveTest.clickOnTextboxCategory" />
       </list>
@@ -159,6 +172,29 @@
       <option name="presentableId" value="Default" />
       <updated>1695916223189</updated>
     </task>
+    <task id="LOCAL-00001" summary="Рефакторинг пакета &quot;java&quot;">
+      <created>1709657581577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709657581577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Рефакторинг пакета &quot;java&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рефакторинг пакета &quot;java&quot;" />
   </component>
 </project>

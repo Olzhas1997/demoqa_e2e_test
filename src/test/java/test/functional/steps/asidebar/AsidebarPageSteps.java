@@ -1,0 +1,1 @@
+package test.functional.steps.asidebar;import io.qameta.allure.Step;import static test.functional.configuration.Config.asidebarPage;public class AsidebarPageSteps {    @Step("Нажать на «Alerts, Frame & Windows»")    public static void ClickOnAlertsFW_Category() {        asidebarPage.clickOnAlertsFwCategory();    }}

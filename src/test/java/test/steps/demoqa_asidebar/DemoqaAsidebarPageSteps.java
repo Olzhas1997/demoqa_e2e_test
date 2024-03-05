@@ -1,1 +1,0 @@
-package test.steps.demoqa_asidebar;import io.qameta.allure.Step;import static test.Configuration.Config.demoqaAsidebarPage;public class DemoqaAsidebarPageSteps {    @Step("Нажать на «Alerts, Frame & Windows»")    public static void ClickOnAlertsFW_Category() {        demoqaAsidebarPage.clickOnAlertsFwCategory();    }}
