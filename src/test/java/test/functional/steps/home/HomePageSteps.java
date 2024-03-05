@@ -1,0 +1,1 @@
+package test.functional.steps.home;import io.qameta.allure.Step;import test.functional.configuration.Config;public class HomePageSteps extends Config {    @Step("Нажать на «Elements»")    public static void clickOnElements() {        homePage.clickOnElementsCard();    }}
